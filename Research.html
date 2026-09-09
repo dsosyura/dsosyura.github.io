@@ -84,9 +84,17 @@ details.MsoNormal summary {
   font-weight: bold;
 }
 
-p.MsoNormal {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 13px;
+p.MsoNormal,
+p.MsoNormal span,
+p.MsoNormal font,
+p.MsoNormal b,
+p.MsoNormal i,
+p.MsoNormal a,
+p.MsoNormal u {
+  font-family: Verdana, Geneva, sans-serif !important;
+  font-size: 13px !important;
+  -webkit-text-size-adjust: 100% !important;
+  text-size-adjust: 100% !important;
 }
 </style>
 </head>
